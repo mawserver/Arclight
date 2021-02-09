@@ -44,3 +44,8 @@ jobs:
         name: Arclight 
         path: ./build/libs/*.jar
 
+    - name: Upload Enviorment
+      uses: actions/upload-artifact@v2
+      with:
+        name: Enviorment 
+        path: ./*
